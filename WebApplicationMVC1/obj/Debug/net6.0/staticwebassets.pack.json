@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\chicago.jpg",
+      "PackagePath": "staticwebassets\\materialize\\Images\\chicago.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\icone.ico",
+      "PackagePath": "staticwebassets\\materialize\\Images\\icone.ico"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\logo.png",
+      "PackagePath": "staticwebassets\\materialize\\Images\\logo.png"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\newyork.jpg",
+      "PackagePath": "staticwebassets\\materialize\\Images\\newyork.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\paris.jpg",
+      "PackagePath": "staticwebassets\\materialize\\Images\\paris.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\roma.jpg",
+      "PackagePath": "staticwebassets\\materialize\\Images\\roma.jpg"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\Images\\skyscraper.png",
+      "PackagePath": "staticwebassets\\materialize\\Images\\skyscraper.png"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\css\\materialize.css",
+      "PackagePath": "staticwebassets\\materialize\\css\\materialize.css"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\css\\materialize.min.css",
+      "PackagePath": "staticwebassets\\materialize\\css\\materialize.min.css"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\js\\materialize.js",
+      "PackagePath": "staticwebassets\\materialize\\js\\materialize.js"
+    },
+    {
+      "Id": "D:\\Git\\Csharp\\WebApplicationMVC1\\WebApplicationMVC1\\wwwroot\\materialize\\js\\materialize.min.js",
+      "PackagePath": "staticwebassets\\materialize\\js\\materialize.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplicationMVC1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplicationMVC1.props",
+      "PackagePath": "build\\WebApplicationMVC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplicationMVC1.props",
+      "PackagePath": "buildMultiTargeting\\WebApplicationMVC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplicationMVC1.props",
+      "PackagePath": "buildTransitive\\WebApplicationMVC1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
