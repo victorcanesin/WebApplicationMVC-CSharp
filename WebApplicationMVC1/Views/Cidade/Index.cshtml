@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Cidade>
+
+
+<div id="tabela" style="width:1200px;height:900px; position:absolute;top:20%; left:8%;transform: translate(-10%, -10%)">
+    <table class="striped">
+        <thread>
+            <tr>
+                <th>Código</th>
+                <th>Nome da cidade</th>
+                <th>Nome do estado</th>
+                <th>Nome do país</th>
+            </tr>
+        </thread>
+
+        <tbody>
+            @foreach (var cidade in Model)
+            {
+                <tr>
+                    <td>@cidade.cidadeCodigo</td>
+                    <td>@cidade.cidadeDescricao</td>
+                    <td>@cidade.estado.estadoDescricao</td>
+                    <td>@cidade.estado.pais.paisDescricao</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a class="btn-floating btn-large waves-effect waves-light darken-4" style="position:absolute;top:10%; left:68%;transform: translate(-10%, -10%)" href="~/Cidade/adicionar">
+    <i class="material-icons">add</i>
+</a>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.fixed-action-btn');
+        var instances = M.FloatingActionButton.init(elems, {
+            // specify options here
+        });
+    });
+
+</script>

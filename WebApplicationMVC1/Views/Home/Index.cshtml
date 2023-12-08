@@ -1,0 +1,57 @@
+﻿<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.slider');
+        var instances = M.Slider.init(elems, {
+            // specify options here
+            /** Optional function which generates ARIA label for each indicator */
+            indicatorLabelFunc: (idx, current) => {
+                let label = "Go to slide " + idx;
+                if (current) {
+                    label = label + " (Current)";
+                }
+                return label;
+            }
+        });
+    });
+</script>
+
+<script>
+    var instance = M.Carousel.init({
+        fullWidth: true
+    });
+</script>
+
+<div class="slider" style="width:800px;height:600px; position:absolute; top:15%;left:29%">
+    <ul class="slides">
+        <li>
+            <img src="~/materialize/Images/paris.jpg" alt="Sample image for first slide">
+            <div class="caption center-align" style="background: rgba(0, 0, 0, 0.6) ">
+                <h3 >Paris</h3>
+                <h5 class="light">Venha provar os ótimos croissants</h5>
+            </div>
+        </li>
+        <li>
+            <img src="~/materialize/Images/chicago.jpg" alt="Sample image for second slide">
+            <div class="caption center-align" style="background: rgba(0, 0, 0, 0.6) ">
+                <h3>Chigaco</h3>
+                <h5 class="light">Belissima para admirar!</h5>
+            </div>
+        </li>
+        <li>
+            <img src="~/materialize/Images/roma.jpg" alt="Sample image for third slide">
+            <div class="caption center-align" style="background: rgba(0, 0, 0, 0.6) ">
+                <h3>Roma</h3>
+                <h5 class="light">Pegue sua espada e seu escudo!</h5>
+            </div>
+        </li>
+        <li>
+            <img src="~/materialize/Images/newyork.jpg" alt="Sample image for fourth slide">
+            <div class="caption center-align" style="background: rgba(0, 0, 0, 0.6) ">
+                <h3>Nova York</h3>
+                <h5 class="light">Conheça o lar das melhores séries de TV</h5>
+            </div>
+        </li>
+    </ul>
+</div>
+
+<h4 style="position:absolute;top:62%;left:32%;font-family:'Segoe UI';font-style:oblique">Conheça as cidades mais famosas do mundo!</h4>

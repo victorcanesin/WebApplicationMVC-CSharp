@@ -1,0 +1,43 @@
+﻿@model Estado
+
+
+<form asp-controller="Estado" asp-action="adicionar" method="post">
+
+    <h4 style="position:absolute;top:10%;left:5%;font-family:'Segoe UI';font-style:inherit">Incluindo um novo estado no catálogo</h4>
+
+    <div style="width:800px;height:1000px;position:absolute;top:20%;left:5%">
+
+        <label asp-for="estadoCodigo">Código</label>
+        <input asp-for="estadoCodigo" />
+
+        <label asp-for="estadoDescricao">Nome do estado</label>
+        <input asp-for="estadoDescricao" />
+
+        <label asp-for="estadoSigla">Sigla</label>
+        <input asp-for="estadoSigla" />
+        
+        <label asp-for="paisCodigo">País</label>
+        <select asp-for="paisCodigo" asp-items="ViewBag.Paises" id="dropdown-pais">
+            <option value="">Selecione o país</option>
+        </select>
+        
+
+        <br />
+        <br />
+
+        <button type="submit" class="btn btn-small">Salvar</button>&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-small" style="background-color:#e57373" href="~/Estado">Cancelar</button>
+
+    </div>
+
+</form>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems, {
+            // specify options here
+        });
+    });
+
+</script>

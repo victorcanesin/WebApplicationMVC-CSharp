@@ -1,0 +1,24 @@
+﻿@model Pais
+<form asp-controller="Pais" asp-action="adicionar" method="post">
+
+    <h4 style="position:absolute;top:10%;left:5%;font-family:'Segoe UI';font-style:inherit">Incluindo um novo país no catálogo</h4>
+
+    <div style="width:800px;height:600px;position:absolute;top:20%;left:5%">
+
+        <label asp-for="paisCodigo">Código</label>
+        <input asp-for="paisCodigo" />
+
+        <label asp-for="paisDescricao">Nome do país</label>
+        <input asp-for="paisDescricao" />
+
+        <label asp-for="paisSigla">Sigla</label>
+        <input asp-for="paisSigla" />
+        
+        <br /><br />
+
+        <button type="submit" class="btn btn-small">Salvar</button>&nbsp;&nbsp;&nbsp;
+        <button class="btn btn-small" style="background-color:#e57373" href="~/PAIS">Cancelar</button>
+
+    </div>
+
+</form>
